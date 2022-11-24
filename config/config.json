@@ -1,0 +1,12 @@
+{
+
+  "local": {
+    "username": "root",
+    "password": "admin",
+    "database": "clasiune",
+    "host": "localhost",
+    "dialect": "mysql",
+    "timezone" : "America/Asuncion",
+    "key":"cl@siun3"
+  }
+}
