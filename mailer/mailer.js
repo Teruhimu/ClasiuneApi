@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
     auth: { 
         //ACLARACION, ACA UTILIZAR UN CORREO DE 365 o DE OUTLOOK CON AUTORIZACION SMPT, DEJO EN BLANCO POR CUESTIONES DE PRIVACIDAD, PARA MAS INFORMACION https://nodemailer.com/about/
         user: "anibalsgv@fpune.edu.py",
-        pass: "Tesla2019nikola"
+        pass: ""
     }
 });
 module.exports = {
