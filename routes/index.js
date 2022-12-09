@@ -3,11 +3,20 @@ const producto = require('../controllers/producto');
 const usuario = require('../controllers/usuario');
 const emailer = require('../controllers/emailer');
 const productoExt = require('../controllers/productoExt');
+const test = require('../controllers/test');
 
 
 
 module.exports = function(router) 
 {   
+    //test
+    router.get('/test', test.findAll);
+    router.get('/test/:id', test.findByPk);
+    router.post('/test', test.create);
+    router.put('/test/:id', test.update);
+    router.delete('/test/:id', test.delete);
+    router.post('/test-filter', test.findAllByFilter);
+    
     //productoExt
     router.get('/producto-ext', productoExt.findAll);
     router.get('/producto-ext/:id', productoExt.findByPk);
